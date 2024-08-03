@@ -40,6 +40,14 @@ To use the Customized Standard Template Data Structure Library, simply include t
 #include "Cstdsl.cpp"
 
 // Example usage
+SinglyLL<int> l1;
+    l1.InsertFirst(11);
+    l1.InsertLast(21);
+    l1.InsertLast(51);
+    l1.InsertLast(111);
+    l1.InsertLast(110);
+    l1.Display();
+
 SingyLL<int> intList;
 Stack<float> floatStack;
 BinarySearchTree<string> stringTree;
